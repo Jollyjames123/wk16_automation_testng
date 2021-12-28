@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.841">
+  <properties />
+  
+  
+            <testcase name="userShouldBeAbleToCreateAccountWithValidDetails" time="6.564" classname="com.automationpractice.testsuite.CreateAccountTest" />
+                <testcase name="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails" time="6.277" classname="com.automationpractice.testsuite.CreateAccountTest" />
+      
+</testsuite>

@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>TestNG:  Smoke Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 28 13:48:02 GMT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>31 seconds (31591 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automationpractice.testsuite.SummerDressesPriceRangeTest.updatedSearchResultsAfterChangingPriceRange()'><b>updatedSearchResultsAfterChangingPriceRange</b><br>Test class: com.automationpractice.testsuite.SummerDressesPriceRangeTest<br/>
+<a href="#Output-1152380885" onClick='toggleBox("Output-1152380885", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1152380885" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1152380885">
+verifying summer page text : [[ChromeDriver: chrome on WINDOWS (06623334c4d1c93b314a85962656fd0a)] -> xpath: (//span[@class='cat-name'])[1]]<br><br/>
+moving slider to change price : [[ChromeDriver: chrome on WINDOWS (06623334c4d1c93b314a85962656fd0a)] -> xpath: //div[@id='left_column']//a[2]]<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.automationpractice.testsuite.SummerDressesPriceRangeTest@5025a98f</td></tr>
+<tr>
+<td title='com.automationpractice.testsuite.OurStoresTest.userShouldBeAbleToDragTheMapAndTakeScreenshot()'><b>userShouldBeAbleToDragTheMapAndTakeScreenshot</b><br>Test class: com.automationpractice.testsuite.OurStoresTest<br/>
+<a href="#Output-211199210" onClick='toggleBox("Output-211199210", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-211199210" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-211199210">
+accepting the alert : [[ChromeDriver: chrome on WINDOWS (086d3c72bbd5cfd973cfda6fd540176e)] -> css selector: .dismissButton]<br><br/>
+taking screenshot<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.automationpractice.testsuite.OurStoresTest@6adede5</td></tr>
+<tr>
+<td title='com.automationpractice.testsuite.CreateAccountTest.userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails()'><b>userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails</b><br>Test class: com.automationpractice.testsuite.CreateAccountTest<br>Parameters: James, DD12**, abc$%12456, 123 Abc Str%%t, Lo$%^on, Florida, 123ssa45, 0123abcd67890, There are 5 errors<br/>
+<a href="#Output-1893736577" onClick='toggleBox("Output-1893736577", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1893736577" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1893736577">
+entering random email : <br><br/>
+Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //span[normalize-space()='Create an account']]<br><br/>
+Entering firstname[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='customer_firstname']]<br><br/>
+Entering lastname[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='customer_lastname']]<br><br/>
+Entering password[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='passwd']]<br><br/>
+Entering address[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='address1']]<br><br/>
+Entering city[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='city']]<br><br/>
+Selecting the state[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //select[@id='id_state']]<br><br/>
+Entering postalcode[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='postcode']]<br><br/>
+Entering contact number[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='phone_mobile']]<br><br/>
+Clicking on register link[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //button[@id='submitAccount']]<br><br/>
+verifying error message : [[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //div[@class='alert alert-danger']]<br><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.automationpractice.testsuite.CreateAccountTest@2d928643</td></tr>
+</table><p>
+</body>
+</html>

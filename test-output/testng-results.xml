@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[accepting the alert : [[ChromeDriver: chrome on WINDOWS (086d3c72bbd5cfd973cfda6fd540176e)] -> css selector: .dismissButton]<br>]]>
+    </line>
+    <line>
+      <![CDATA[taking screenshot<br>]]>
+    </line>
+    <line>
+      <![CDATA[verifying summer page text : [[ChromeDriver: chrome on WINDOWS (06623334c4d1c93b314a85962656fd0a)] -> xpath: (//span[@class='cat-name'])[1]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[moving slider to change price : [[ChromeDriver: chrome on WINDOWS (06623334c4d1c93b314a85962656fd0a)] -> xpath: //div[@id='left_column']//a[2]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[entering random email : <br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //span[normalize-space()='Create an account']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering firstname[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='customer_firstname']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering lastname[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='customer_lastname']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering password[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='passwd']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering address[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='address1']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering city[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='city']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the state[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //select[@id='id_state']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering postalcode[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='postcode']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering contact number[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='phone_mobile']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on register link[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //button[@id='submitAccount']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[verifying error message : [[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //div[@class='alert alert-danger']]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="31591" started-at="2021-12-28T13:48:02Z" finished-at="2021-12-28T13:48:33Z">
+    <groups>
+      <group name="regression">
+        <method signature="CreateAccountTest.userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@2d928643]" name="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails" class="com.automationpractice.testsuite.CreateAccountTest"/>
+        <method signature="OurStoresTest.userShouldBeAbleToDragTheMapAndTakeScreenshot()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6adede5]" name="userShouldBeAbleToDragTheMapAndTakeScreenshot" class="com.automationpractice.testsuite.OurStoresTest"/>
+        <method signature="SummerDressesPriceRangeTest.updatedSearchResultsAfterChangingPriceRange()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@5025a98f]" name="updatedSearchResultsAfterChangingPriceRange" class="com.automationpractice.testsuite.SummerDressesPriceRangeTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateAccountTest.userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@2d928643]" name="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails" class="com.automationpractice.testsuite.CreateAccountTest"/>
+        <method signature="OurStoresTest.userShouldBeAbleToDragTheMapAndTakeScreenshot()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6adede5]" name="userShouldBeAbleToDragTheMapAndTakeScreenshot" class="com.automationpractice.testsuite.OurStoresTest"/>
+        <method signature="SummerDressesPriceRangeTest.updatedSearchResultsAfterChangingPriceRange()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@5025a98f]" name="updatedSearchResultsAfterChangingPriceRange" class="com.automationpractice.testsuite.SummerDressesPriceRangeTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Smoke Test" duration-ms="31591" started-at="2021-12-28T13:48:02Z" finished-at="2021-12-28T13:48:33Z">
+      <class name="com.automationpractice.testsuite.SummerDressesPriceRangeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@5025a98f]" name="setUp" is-config="true" duration-ms="5047" started-at="2021-12-28T13:48:14Z" finished-at="2021-12-28T13:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init1()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@5025a98f]" name="init1" is-config="true" duration-ms="6" started-at="2021-12-28T13:48:19Z" finished-at="2021-12-28T13:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init1 -->
+        <test-method status="PASS" signature="updatedSearchResultsAfterChangingPriceRange()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@5025a98f]" name="updatedSearchResultsAfterChangingPriceRange" duration-ms="2636" started-at="2021-12-28T13:48:19Z" finished-at="2021-12-28T13:48:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[verifying summer page text : [[ChromeDriver: chrome on WINDOWS (06623334c4d1c93b314a85962656fd0a)] -> xpath: (//span[@class='cat-name'])[1]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[moving slider to change price : [[ChromeDriver: chrome on WINDOWS (06623334c4d1c93b314a85962656fd0a)] -> xpath: //div[@id='left_column']//a[2]]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updatedSearchResultsAfterChangingPriceRange -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationpractice.testsuite.SummerDressesPriceRangeTest@5025a98f]" name="tearDown" is-config="true" duration-ms="766" started-at="2021-12-28T13:48:22Z" finished-at="2021-12-28T13:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testsuite.SummerDressesPriceRangeTest -->
+      <class name="com.automationpractice.testsuite.OurStoresTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6adede5]" name="setUp" is-config="true" duration-ms="8520" started-at="2021-12-28T13:48:02Z" finished-at="2021-12-28T13:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6adede5]" name="init" is-config="true" duration-ms="64" started-at="2021-12-28T13:48:11Z" finished-at="2021-12-28T13:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="userShouldBeAbleToDragTheMapAndTakeScreenshot()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6adede5]" name="userShouldBeAbleToDragTheMapAndTakeScreenshot" duration-ms="2416" started-at="2021-12-28T13:48:11Z" finished-at="2021-12-28T13:48:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[accepting the alert : [[ChromeDriver: chrome on WINDOWS (086d3c72bbd5cfd973cfda6fd540176e)] -> css selector: .dismissButton]<br>]]>
+            </line>
+            <line>
+              <![CDATA[taking screenshot<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToDragTheMapAndTakeScreenshot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationpractice.testsuite.OurStoresTest@6adede5]" name="tearDown" is-config="true" duration-ms="1016" started-at="2021-12-28T13:48:13Z" finished-at="2021-12-28T13:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testsuite.OurStoresTest -->
+      <class name="com.automationpractice.testsuite.CreateAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@2d928643]" name="setUp" is-config="true" duration-ms="4173" started-at="2021-12-28T13:48:23Z" finished-at="2021-12-28T13:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init1()[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@2d928643]" name="init1" is-config="true" duration-ms="14" started-at="2021-12-28T13:48:27Z" finished-at="2021-12-28T13:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init1 -->
+        <test-method status="PASS" signature="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@2d928643]" name="userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails" duration-ms="5323" started-at="2021-12-28T13:48:27Z" data-provider="Invalid details" finished-at="2021-12-28T13:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DD12**]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc$%12456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123 Abc Str%%t]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lo$%^on]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Florida]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123ssa45]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0123abcd67890]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[There are 5 errors]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[entering random email : <br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //span[normalize-space()='Create an account']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering firstname[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='customer_firstname']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering lastname[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='customer_lastname']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering password[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='passwd']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering address[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='address1']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering city[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='city']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the state[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //select[@id='id_state']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering postalcode[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='postcode']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering contact number[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //input[@id='phone_mobile']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on register link[[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //button[@id='submitAccount']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[verifying error message : [[ChromeDriver: chrome on WINDOWS (ec7403487dbe9cacbbf716ecee83b3d7)] -> xpath: //div[@class='alert alert-danger']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automationpractice.testsuite.CreateAccountTest@2d928643]" name="tearDown" is-config="true" duration-ms="908" started-at="2021-12-28T13:48:32Z" finished-at="2021-12-28T13:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testsuite.CreateAccountTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- testsuite -->
+</testng-results>

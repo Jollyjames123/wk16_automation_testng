@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Regression Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Regression Test</h1>
+<p>
+  Test duration: 93.136s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.CreateAccountTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userShouldBeAbleToCreateAccountWithValidDetails
+      </td>
+  <td class="duration">
+    6.564s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"James", "Bond", "abc12456", "123 Abc Street", "London", "Florida", "12345", "01234567890", "MY ACCOUNT", "James Bond"</span><br />
+    
+            <div class="testOutput">
+                        entering random email : &lt;br&gt;<br />
+                                Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //span[normalize-space()=&apos;Create an account&apos;]]&lt;br&gt;<br />
+                                Entering firstname[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //input[@id=&apos;customer_firstname&apos;]]&lt;br&gt;<br />
+                                Entering lastname[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //input[@id=&apos;customer_lastname&apos;]]&lt;br&gt;<br />
+                                Entering password[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //input[@id=&apos;passwd&apos;]]&lt;br&gt;<br />
+                                Entering address[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //input[@id=&apos;address1&apos;]]&lt;br&gt;<br />
+                                Entering city[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //input[@id=&apos;city&apos;]]&lt;br&gt;<br />
+                                Selecting the state[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //select[@id=&apos;id_state&apos;]]&lt;br&gt;<br />
+                                Entering postalcode[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //input[@id=&apos;postcode&apos;]]&lt;br&gt;<br />
+                                Entering contact number[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //input[@id=&apos;phone_mobile&apos;]]&lt;br&gt;<br />
+                                Clicking on register link[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //button[@id=&apos;submitAccount&apos;]]&lt;br&gt;<br />
+                                Verifying the message[[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //h1[contains(text(),&apos;My account&apos;)]]&lt;br&gt;<br />
+                                verify the account name : [[ChromeDriver: chrome on WINDOWS (8e7508f00e978cee749b7673aa9ddad3)] -&gt; xpath: //a[@title=&apos;View my customer account&apos;]]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  userWillGetAnErrorMessageWhileCreatingAccountWithInvalidDetails
+      </td>
+  <td class="duration">
+    6.277s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"James", "DD12**", "abc$%12456", "123 Abc Str%%t", "Lo$%^on", "Florida", "123ssa45", "0123abcd67890", "There are 5 errors"</span><br />
+    
+            <div class="testOutput">
+                        entering random email : &lt;br&gt;<br />
+                                Click on the create an account tab : [[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //span[normalize-space()=&apos;Create an account&apos;]]&lt;br&gt;<br />
+                                Entering firstname[[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //input[@id=&apos;customer_firstname&apos;]]&lt;br&gt;<br />
+                                Entering lastname[[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //input[@id=&apos;customer_lastname&apos;]]&lt;br&gt;<br />
+                                Entering password[[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //input[@id=&apos;passwd&apos;]]&lt;br&gt;<br />
+                                Entering address[[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //input[@id=&apos;address1&apos;]]&lt;br&gt;<br />
+                                Entering city[[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //input[@id=&apos;city&apos;]]&lt;br&gt;<br />
+                                Selecting the state[[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //select[@id=&apos;id_state&apos;]]&lt;br&gt;<br />
+                                Entering postalcode[[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //input[@id=&apos;postcode&apos;]]&lt;br&gt;<br />
+                                Entering contact number[[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //input[@id=&apos;phone_mobile&apos;]]&lt;br&gt;<br />
+                                Clicking on register link[[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //button[@id=&apos;submitAccount&apos;]]&lt;br&gt;<br />
+                                verifying error message : [[ChromeDriver: chrome on WINDOWS (5778c7856892d29541628fcf71f717c2)] -&gt; xpath: //div[@class=&apos;alert alert-danger&apos;]]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.DeleteBasketTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userShouldBeAblToDeleteProductFromBasket
+      </td>
+  <td class="duration">
+    29.246s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Women", "Summer Dresses", "Your shopping cart is empty."</span><br />
+    
+            <div class="testOutput">
+                        closing shopping cart window : [[ChromeDriver: chrome on WINDOWS (bbc11fadb6c919ad59b5926ad861e213)] -&gt; xpath: //span[@title=&apos;Close window&apos;]]&lt;br&gt;<br />
+                                verifying delete icon : [[ChromeDriver: chrome on WINDOWS (bbc11fadb6c919ad59b5926ad861e213)] -&gt; xpath: //a[@class=&apos;ajax_cart_block_remove_link&apos;]]&lt;br&gt;<br />
+                                removing item from cart : [[ChromeDriver: chrome on WINDOWS (bbc11fadb6c919ad59b5926ad861e213)] -&gt; xpath: //a[@class=&apos;ajax_cart_block_remove_link&apos;]]&lt;br&gt;<br />
+                                verifying empty cart message : Proxy element for: DefaultElementLocator &apos;By.xpath: //p[@class=&apos;alert alert-warning&apos;]&apos;&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.OurStoresTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userShouldBeAbleToDragTheMapAndTakeScreenshot
+      </td>
+  <td class="duration">
+    3.104s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        accepting the alert : [[ChromeDriver: chrome on WINDOWS (cfc219af2bad3c8548dbcbdf55d2c2b0)] -&gt; css selector: .dismissButton]&lt;br&gt;<br />
+                                taking screenshot&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.SummerDressesPriceRangeTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  updatedSearchResultsAfterChangingPriceRange
+      </td>
+  <td class="duration">
+    5.339s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        verifying summer page text : [[ChromeDriver: chrome on WINDOWS (68e1a5e3365d4b076544e3e88f265c8a)] -&gt; xpath: (//span[@class=&apos;cat-name&apos;])[1]]&lt;br&gt;<br />
+                                moving slider to change price : [[ChromeDriver: chrome on WINDOWS (68e1a5e3365d4b076544e3e88f265c8a)] -&gt; xpath: //div[@id=&apos;left_column&apos;]//a[2]]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automationpractice.testsuite.SummerDressesTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userShouldBeAbleToSelectAndViewSummerDressesFromNavigationMenu
+      </td>
+  <td class="duration">
+    6.293s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Women", "Summer Dresses", "SUMMER DRESSES "</span><br />
+    
+            <div class="testOutput">
+                        verifying summer page text : [[ChromeDriver: chrome on WINDOWS (948f6d02b82358cf765418a57b5b6504)] -&gt; xpath: (//span[@class=&apos;cat-name&apos;])[1]]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
